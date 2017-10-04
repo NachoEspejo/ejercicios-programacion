@@ -5,7 +5,7 @@ Ejercicios de la asignatura Programacion de **1º DAM (Desarrollo de Aplicacione
 
 * Comandos de Linux :penguin:
 * Git y GitHub :octocat:
-* Lenguaje Java: :coffee: Variables, bucles, POO, etc.
+* Lenguaje Java :coffee:: Variables, bucles, POO, etc.
 
 ## :books: Bibliografía
 
