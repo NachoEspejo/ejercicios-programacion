@@ -15,6 +15,6 @@ Ejercicios de la asignatura Programacion de **1º DAM (Desarrollo de Aplicacione
 
 ## Enlaces de interés
 
-* [Pagina oficial del IES Campanillas] (http://iescampanillas.com/)
+* [Pagina oficial del IES Campanillas](http://iescampanillas.com/)
 
-* [Guía de la asignatura de Programación] (https://github.com/LuisJoseSanchez/programacion)
+* [Guía de la asignatura de Programación](https://github.com/LuisJoseSanchez/programacion)
