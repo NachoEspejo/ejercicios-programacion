@@ -3,11 +3,11 @@ Ejercicios de la asignatura Programacion de **1º DAM (Desarrollo de Aplicacione
 
 ## ¿Qué se aprende en Programación?
 
-* :penguin:Comandos de Linux
-* :octocat:Git y GitHub
-* :coffee:Lenguaje Java: Variables, bucles, POO, etc.
+* Comandos de Linux :penguin:
+* Git y GitHub :octocat:
+* Lenguaje Java: :coffee: Variables, bucles, POO, etc.
 
-## Bibliografía
+## :books: Bibliografía
 
 <img width="320px" src="/Imágenes/Java.jpg">
 
