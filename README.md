@@ -7,6 +7,30 @@ Ejercicios de la asignatura Programacion de **1º DAM (Desarrollo de Aplicacione
 * Git y GitHub :octocat:
 * Lenguaje Java :coffee: : Variables, bucles, POO, etc.
 
+# "Hola Mundo" en Java
+
+A continuación se muestra el programa "Hola Mundo" escrito en lenguaje Java:
+
+```java
+public class HolaMundo { 
+  public static void main(String[] args) {
+    System.out.println("¡Hola Mundo!");
+  }
+}
+```
+
+Para compilar el programa teclea:
+
+```console
+javac HolaMundo.java
+```
+
+Para ejecutar el progroma usamos el comando `java`:
+
+```console
+java HolaMundo
+```
+
 ## :books: Bibliografía
 
 <img width="320px" src="/Imágenes/Java.jpg">
