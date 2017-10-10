@@ -6,8 +6,8 @@
 public class Ejercicio06 {
   public static void main(String[] args) {
     
-    System.out.println("Área de un rectángulo");
-    
+    System.out.println("Área de un triángulo");
+        
     System.out.print("Introduce la longitud de la base en cm: ");
     double base = Double.parseDouble(System.console().readLine());
     
