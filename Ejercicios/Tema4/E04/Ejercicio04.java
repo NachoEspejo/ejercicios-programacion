@@ -20,6 +20,6 @@ public class Ejercicio04 {
     } else {
       sueldoSemanal = (40 * 12) + ((horasTrabajadas - 40) * 16);    
     }
-    System.out.println("Consigues un total de " + sueldoSemanal + "€" + " a la semana");
+    System.out.println("Consigues un total de " + sueldoSemanal + "€" + " a la semana, por trabajar " + horasTrabajadas + " horas");
   }
 }
