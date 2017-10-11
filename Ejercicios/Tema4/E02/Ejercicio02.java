@@ -5,7 +5,7 @@
  *tramos de 6 a 12, de 13 a 20 y de 21 a 5. respectivamente. Sólo se tienen en
  *cuenta las horas, los minutos no se deben introducir por teclado.
  */
- 
+
 public class Ejercicio02 {
   public static void main(String[] args) {
 
