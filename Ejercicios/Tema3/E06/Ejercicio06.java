@@ -15,7 +15,7 @@ public class Ejercicio06 {
     double altura = Double.parseDouble(System.console().readLine());
     
     System.out.println("Y al dividirla entre dos");
-    System.out.println("El área del triángulo es " + ((base * altura)/2) + " cm2");
+    System.out.println("El área del triángulo es " + ((base * altura)/2) + " cm^2");
   
   }
 }
