@@ -4,7 +4,7 @@
  *asignatura toca a primera hora ese día.
  */
  
- public class Ejercicio01 {
+public class Ejercicio01 {
   public static void main(String[] args) {
 
     String dia;

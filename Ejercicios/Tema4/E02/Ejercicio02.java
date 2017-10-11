@@ -6,7 +6,7 @@
  *cuenta las horas, los minutos no se deben introducir por teclado.
  */
  
- public class Ejercicio02 {
+public class Ejercicio02 {
   public static void main(String[] args) {
 
     System.out.print("Introduce una hora (0-23h) y te diré su respectivo saludo: ");
