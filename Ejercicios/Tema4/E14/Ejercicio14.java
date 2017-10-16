@@ -7,7 +7,7 @@ public class Ejercicio14 {
 
   public static void main(String[] args) {
         
-    System.out.print("Por favor, introduzca un número entero: ");
+    System.out.print("Introduce un número entero: ");
     int n = Integer.parseInt(System.console().readLine());
 
     if ((n % 2) == 0) {

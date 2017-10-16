@@ -11,8 +11,10 @@ public class Ejercicio06 {
     double h = Double.parseDouble(System.console().readLine());
     double g = 9.81;
     
+    // Math.sqrt es √
     double t = Math.sqrt(2*h/g);
 
     System.out.printf("Batman tardará %.2f s en meterse una ostia.\n", t);
+    System.out.println("Por tanto Robin, se queda sin padre (tam)(tam)(tammmmm...)");
   }
 }

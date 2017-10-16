@@ -22,23 +22,23 @@ public class Ejercicio08 {
     System.out.printf("La media es %.2f\n", media);
     
     if (media < 5) {
-      System.out.print("Insuficiente");
+      System.out.print("Nota del boletín: Insuficiente");
     }
     
     if ((media >= 5) && (media < 6)) {
-      System.out.print("Suficiente");
+      System.out.print("Nota del boletín: Suficiente");
     }
     
     if ((media >= 6) && (media < 7)) {
-      System.out.print("Bien");
+      System.out.print("Nota del boletín: Bien");
     }
     
     if ((media >= 7) && (media < 9)) {
-      System.out.print("Notable");
+      System.out.print("Nota del boletín: Notable");
     }
     
     if (media >= 9) {
-      System.out.print("Sobresaliente");
+      System.out.print("Nota del boletín: Sobresaliente");
     }
   }
 }
