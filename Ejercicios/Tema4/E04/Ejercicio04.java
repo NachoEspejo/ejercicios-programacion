@@ -20,6 +20,9 @@ public class Ejercicio04 {
     } else {
       sueldoSemanal = (40 * 12) + ((horasTrabajadas - 40) * 16);    
     }
+    if (horasTrabajadas >= 168) {
+      System.out.println("Tú o no tienes vida, o me estas mintiendo");
+    }
     System.out.println("Consigues un total de " + sueldoSemanal + "€" + " a la semana, por trabajar " + horasTrabajadas + " horas");
   }
 }
