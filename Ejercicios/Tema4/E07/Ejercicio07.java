@@ -1,5 +1,5 @@
 /**
- * 7. Realiza un programa que calcule la media de tres notas.
+ * 7. Realiza un programa que calcule la media de tres notas
  **/
 public class Ejercicio07 {
 

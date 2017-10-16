@@ -4,7 +4,7 @@
  *     reducido o superreducido) y el código promocional. Los tipos de IVA general,
  *     reducido y superreducido son del 21%, 10% y 4% respectivamente. Los códigos
  *     promocionales pueden ser nopro, mitad, meno5 o 5porc que significan
- *     respectivamente que no se aplica promoción, el precio se reduce a la mitad,
+ *     respectivamente que no se aplica promoción, el precio se reduce a la mitad
  *     se descuentan 5 euros o se descuenta el 5%. El ejercicio se da por bueno
  *     si se muestran los valores correctos, aunque los números no estén tabulados.
  * 

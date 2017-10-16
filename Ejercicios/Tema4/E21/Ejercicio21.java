@@ -1,6 +1,6 @@
 /**
  * 21. Calcula la nota de un trimestre de la asignatura Programación. El programa
- *     pedirá las dos notas que ha sacado el alumno en los dos primeros controles.
+ *     pedirá las dos notas que ha sacado el alumno en los dos primeros controles
  *     Si la media de los dos controles da un número mayor o igual a 5, el alumno
  *     está aprobado y se mostrará la media. En caso de que la media sea un número
  *     menor que 5, el alumno habrá tenido que hacer el examen de recuperación que

@@ -5,7 +5,7 @@
  *     f (falso). Cada pregunta contestada con v sumará 3 puntos.
  *     Las preguntas contestadas con f no suman puntos. Utiliza el
  *     fichero test_infidelidad.txt para obtener las preguntas y las
- *     conclusiones del programa.
+ *     conclusiones del programa
  */
 public class Ejercicio16 {
 

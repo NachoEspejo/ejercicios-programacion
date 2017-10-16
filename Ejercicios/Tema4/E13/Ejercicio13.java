@@ -1,5 +1,5 @@
 /**
- * 13. Escribe un programa que ordene tres números enteros introducidos por teclado.
+ * 13. Escribe un programa que ordene tres números enteros introducidos por teclado
  */
  
 public class Ejercicio13 {

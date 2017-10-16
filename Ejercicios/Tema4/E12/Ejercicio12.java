@@ -4,10 +4,10 @@
  *     sumará un punto. El programa mostrará al final la califcación
  *     obtenida. Pásale el minicuestionario a tus compañeros y pídeles
  *     que lo hagan para ver qué tal andan de conocimientos en las
- *     diferentes asignaturas del curso.
+ *     diferentes asignaturas del curso
  */
  
-public class Ejercicio12 { //NO ESTA HECHO; COPIADO
+public class Ejercicio12 {
 
   public static void main(String[] args) {
     

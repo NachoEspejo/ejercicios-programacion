@@ -1,6 +1,6 @@
 /**
  * 11. Escribe un programa que dada una hora determinada (horas y minutos),
- *     calcule los segundos que faltan para llegar a la medianoche.
+ *     calcule los segundos que faltan para llegar a la medianoche
 
  */
 public class Ejercicio11 {
