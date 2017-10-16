@@ -47,13 +47,13 @@ public class Ejercicio09 {
   
     if ((a != 0) && (b != 0) && (c != 0)) {	
     
-      double discriminante = b*b - (4 * a * c);
+      double totalNoRaiz = b*b - (4 * a * c);
     
-      if (discriminante < 0) {
+      if (totalNoRaiz < 0) {
           System.out.println("La ecuación no tiene soluciones reales");
       }	else {
-        System.out.println("x1 = " + (-b + Math.sqrt(discriminante))/(2 * a));
-        System.out.println("x2 = " + (-b - Math.sqrt(discriminante))/(2 * a));
+        System.out.println("x1 = " + (-b + Math.sqrt(totalNoRaiz))/(2 * a));
+        System.out.println("x2 = " + (-b - Math.sqrt(totalNoRaiz))/(2 * a));
       }
     }
   
