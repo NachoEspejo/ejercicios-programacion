@@ -22,15 +22,15 @@
  *¿Cuántos días ha estado de viaje visitando clientes? 5
  *Introduzca su estado civil (1 - Soltero, 2 - Casado): 2
  *Sueldo base
- *1200,00 �
+ *1200,00 
  *Dietas ( 5 viajes)
- *150,00 �
+ *150,00 
  *Sueldo bruto
- *1350,00 �
+ *1350,00 
  *Retención IRPF (20%)
- *270,00 �
+ *270,00 
  *Sueldo neto
- *1080,00 �
+ *1080,00 
  * **/
 
 
