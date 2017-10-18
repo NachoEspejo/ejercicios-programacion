@@ -9,7 +9,7 @@ public class Ejercicio04 {
   public static void main(String[] args) {
     
     System.out.println("Procesando...");
-    for(int i = 160; i <= 320; i += 20) {
+    for(int i = 320; i >= 160; i -= 20) {
       System.out.println(i);
     }
   }
