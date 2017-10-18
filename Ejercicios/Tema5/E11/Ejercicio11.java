@@ -10,7 +10,6 @@ public class Ejercicio11 {
     
     System.out.println("Escribe el número que desees");
     int numero = Integer.parseInt(System.console().readLine());
-    
     System.out.println("Procesando...");
     
     for (int n = numero; n < numero + 5; n++) {
