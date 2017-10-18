@@ -7,6 +7,8 @@ public class Ejercicio01 {
   
   public static void main(String[] args) {
     
+    System.out.println("Procesando...");
+    
     for(int i = 0; i <= 100; i += 5) {
       System.out.println(i);
     }
