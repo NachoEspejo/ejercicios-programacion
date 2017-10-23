@@ -7,7 +7,7 @@
  *     introducir por teclado.
  */
 
-public class Ejercicio12 {
+public class Ejercicio12 { //Preguntar
 
   public static void main(String[] args) {
     

@@ -13,7 +13,7 @@ public class Ejercicio11 {
     System.out.println("Procesando...");
     
     System.out.println("╔════════════════════════════════╗");
-    System.out.println("   Base     Base²      Base³   ");
+    System.out.println("   Base     Base²     Base³   ");
     
     for (int n = numero; n < numero + 5; n++) {
       

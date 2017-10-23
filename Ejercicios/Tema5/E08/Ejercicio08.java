@@ -11,7 +11,7 @@ public class Ejercicio08 {
     int numero = Integer.parseInt(System.console().readLine());
     System.out.println("Procesando...");
     
-    for(int i = 0; i <= 10; i ++ ) {
+    for(int i = 0; i <= 20; i ++ ) {
       System.out.println(numero + " x " + i + " = " + numero * i);
       
     }
