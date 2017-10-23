@@ -15,13 +15,13 @@ public class Ejercicio07 {
     boolean acertado = false;
     
     do {
-      System.out.print("Introduzca la clave de la caja fuerte: ");
+      System.out.print("Introduzca la clave de la caja fuerte (4 dígitos): ");
       numero = Integer.parseInt(System.console().readLine());
       
       if (numero == 1248) {
         acertado = true;
       } else {
-        System.out.println("Clave incorrecta");
+        System.out.println("☠ Clave incorrecta ☠");
       }
       
       intentos--;
@@ -29,9 +29,9 @@ public class Ejercicio07 {
     } while((intentos > 0) && (!acertado));
     
     if (acertado) {
-      System.out.println("Ha abierto la caja fuerte.");
+      System.out.println("Ha abierto la caja fuerte. Disfrute de sus ganancias. ⛂ ⛂ ⛃ ⛃ ⛃ ");
     } else {
-      System.out.println("Lo siento, ha agotado las 4 oportunidades.");
+      System.out.println("♜ Se ha avisado a la policia, por intento de robo, por favor no se resista. ♜");
     }
   }
 }

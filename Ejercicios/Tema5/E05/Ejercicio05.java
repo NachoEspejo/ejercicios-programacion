@@ -8,6 +8,8 @@ public class Ejercicio05 {
     
     int i = 320;
     
+    System.out.println("Procesando datos...");
+    
     while(i >= 160) {
         System.out.println(i);
         i-=20;

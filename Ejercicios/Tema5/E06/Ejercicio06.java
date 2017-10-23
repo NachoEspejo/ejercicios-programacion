@@ -9,6 +9,8 @@ public class Ejercicio06 {
     
     int i = 320;
     
+    System.out.println("Procesando datos...");
+    
     do {
       System.out.println(i);
       i-=20;

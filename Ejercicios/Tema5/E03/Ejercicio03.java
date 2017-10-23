@@ -8,6 +8,8 @@ public class Ejercicio03 {
     
     int i = 0;
     
+    System.out.println("Procesando datos...");
+    
     do {
       System.out.println(i);
       i+=5;

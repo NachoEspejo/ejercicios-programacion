@@ -9,7 +9,7 @@ public class Ejercicio01 {
     
     System.out.println("Procesando...");
     for(int i = 0; i <= 100; i += 5) {
-      System.out.println(i);
+      System.out.printf(i + "-");
     }
   }
 }
