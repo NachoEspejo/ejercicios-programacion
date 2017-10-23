@@ -12,7 +12,7 @@ public class Ejercicio12 {
   public static void main(String[] args) {
     
     System.out.println("Este programa muestra los n primeros números de la serie de Fibonacci.");
-    System.out.print("Por favor, introduzca un número: ");
+    System.out.print("Introduce un número: ");
     int número = Integer.parseInt(System.console().readLine());
 
     switch (número) {
