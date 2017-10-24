@@ -24,10 +24,10 @@ public class Ejercicio21 {
       
       if (numeroIntroducido >= 0) {
         cantidad++;
-        if ((numeroIntroducido % 2) == 1) { // número impar
+        if ((numeroIntroducido % 2) == 1) { // Esta sección resuelve el número impar
           sumaImpares += numeroIntroducido;
           cantidadImpares++;
-        } else { // número par
+        } else { // Esta sección resuelve el número par
           if (numeroIntroducido > maximoPar)
             maximoPar = numeroIntroducido;
         }
