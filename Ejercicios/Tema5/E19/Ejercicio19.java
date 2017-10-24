@@ -15,7 +15,7 @@ public class Ejercicio19 {
     
     int h = 1;
     int i = 0;
-    int huecos = alturaIntroducida-1;
+    int huecos = alturaIntroducida - 1;
     
     while (h <= alturaIntroducida) {
       
