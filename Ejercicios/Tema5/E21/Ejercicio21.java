@@ -34,8 +34,8 @@ public class Ejercicio21 {
       }
     } while (numeroIntroducido >= 0);
 
-    System.out.println("Ha introducido " + cantidad + " números");
-    System.out.println("La media de los impares es " + sumaImpares/cantidadImpares);
-    System.out.println("El máximo de los pares es " + maximoPar);
+    System.out.println("Ha introducido una cantidad de " + cantidad + " números");
+    System.out.println("La media de los impares introducidos es " + sumaImpares/cantidadImpares);
+    System.out.println("El máximo de los pares introducidos es " + maximoPar);
   }
 }
