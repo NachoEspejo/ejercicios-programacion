@@ -14,7 +14,7 @@ public class Ejercicio22 {
 
     for (int n = 2; n <= 100; n++) {
 
-      // comprobación
+      // Zona de comprobación primítica
       esPrimo = true;
       for (int i = 2; i < n; i++) {
         if (n % i == 0) {
@@ -22,7 +22,7 @@ public class Ejercicio22 {
         }
       }
 
-      // si n es primo, se muestra
+      // si n es primo, se muestra por pantalla en 4K 100%Real NoFake
       if (esPrimo) {
         System.out.print(n + " ");
       }
