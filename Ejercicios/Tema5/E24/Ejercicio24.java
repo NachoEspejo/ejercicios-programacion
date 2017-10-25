@@ -13,7 +13,7 @@ public class Ejercicio24 {
 
   public static void main(String[] args) {
     
-    System.out.println("Este programa pinta una pirámide hecha a base de números.");
+    System.out.println("Este programa pinta una pirámide hecha a base de números (De un solo dígito).");
     System.out.print("Introduce la altura de la pirámide:");
     int hIntroducida = Integer.parseInt(System.console().readLine());
 
