@@ -11,17 +11,17 @@ public class Ejercicio25 {
     System.out.print("Introduce un número entero: ");
     int numeroIntroducido = Integer.parseInt(System.console().readLine());
 
-    int numero = numeroIntroducido;
+    int n = numeroIntroducido;
     int volteado = 0;
     
-    while (numero > 0) {
-      volteado = (volteado * 10) + (numero % 10);
-      numero /= 10;
+    while (n > 0) {
+      volteado = (volteado * 10) + (n % 10);
+      n /= 10;
     } 
     
-    while (numero < 0) {
-      volteado = (volteado * 10) + (numero % 10);
-      numero /= 10;
+    while (n < 0) {
+      volteado = (volteado * 10) + (n % 10);
+      n /= 10;
     } 
     
     System.out.println("Si le damos la vuelta al número " + numeroIntroducido + " obtenemos el " + volteado);
