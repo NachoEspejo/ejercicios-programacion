@@ -27,15 +27,14 @@ public class Ejercicio34 {
 
   public static void main(String[] args) {
 
-    // Lectura de dos números por teclado //////////////////////////////////////
+    // Los numeros
     System.out.print("Por favor, introduzca un número: ");
     long numeroIntroducido1 = Long.parseLong(System.console().readLine());
 
     System.out.print("Introduzca otro número: ");
     long numeroIntroducido2 = Long.parseLong(System.console().readLine());
 
-    // Voltea el primer número y calcula la longitud ///////////////////////////
-    // Se da por hecho que los dos números introducidos tienen la misma longitud.
+    // Volteo del primer número y su longitud
     long numero = numeroIntroducido1;
     long volteado1 = 0;
     int longitud = 0;
@@ -50,7 +49,7 @@ public class Ejercicio34 {
       longitud++;
     } 
 
-    // Voltea el segundo número
+    // Volteo del segundo número
     numero = numeroIntroducido2;
     long volteado2 = 0;
     
@@ -59,7 +58,7 @@ public class Ejercicio34 {
       numero /= 10;
     } 
 
-    // Recorre los dos números volteados para formar los dos resultados
+    // Relacion entre los dos numeros
     long resultadoPares = 0;
     long resultadoImpares = 0;
     int digito;
