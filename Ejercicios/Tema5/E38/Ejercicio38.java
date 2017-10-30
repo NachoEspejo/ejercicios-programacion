@@ -1,0 +1,66 @@
+/**
+ * Ejercicio 38
+ *Realiza un programa que pinte un reloj de arena relleno hecho de asteriscos. El
+ *programa debe pedir la altura. Se debe comprobar que la altura sea un número
+ *impar mayor o igual a 3, en caso contrario se debe mostrar un mensaje de
+ *error.
+ * 
+ *Ejemplo:
+ *Por favor, introduzca la altura del reloj de arena: 5
+ */
+public class Ejercicio38 {
+
+  public static void main(String[] args) {
+
+    System.out.print("Introduce la altura ( un número impar mayor o igual a 3):");
+    int alturaIntroducida = Integer.parseInt(System.console().readLine());
+
+    int altura = 1;
+    int asteriscos = alturaIntroducida;
+    int espaciosPorDelante = 0;
+
+    if ((alturaIntroducida < 3) || (alturaIntroducida % 2 == 0)) {
+      System.out.print("Parece ser que tu compresión lectrora está fallando, la altura introducida deber ser un impar mayor o igual a 3");
+    } else {
+      // parte de arriba 
+      while (altura < alturaIntroducida / 2 + 1) {
+        
+        // inserta espacios delante
+        for (int i = 1; i <= espaciosPorDelante; i++) {
+          System.out.print(" ");
+        }
+        
+        // pinta la línea
+        for (int i = 0; i < asteriscos; i++) {
+          System.out.print("*");
+        }
+        
+        System.out.println();
+        altura++;
+        espaciosPorDelante++;
+        asteriscos -= 2;      
+      } 
+      
+      // parte de abajo 
+      espaciosPorDelante = alturaIntroducida / 2;
+      altura = 1;
+      while (altura <= alturaIntroducida / 2 + 1) {
+        
+        // inserta espacios delante
+        for (int i = 1; i <= espaciosPorDelante; i++) {
+          System.out.print(" ");
+        }
+        
+        // pinta la línea
+        for (int i = 0; i < asteriscos; i++) {
+          System.out.print("*");
+        }
+        
+        System.out.println();
+        altura++;
+        espaciosPorDelante--;
+        asteriscos += 2;
+      } // while parte de abajo
+    }
+  }
+}
