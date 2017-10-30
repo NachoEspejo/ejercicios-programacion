@@ -17,7 +17,7 @@
     int espaciosPorDelante = alturaIntroducida / 2;
 
     if ((alturaIntroducida < 3) || (alturaIntroducida % 2 == 0)) {
-      System.out.print("Parece ser que tu compresión lectrora está fallando, la altura introducida deber ser un impar mayor o igual a 3");
+      System.out.print("Parece ser que tu compresión lectrora está fallando, la altura introducida deber ser un número impar mayor o igual a 3");
     } else {
       
       int altura = 1;
