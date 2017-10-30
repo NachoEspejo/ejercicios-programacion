@@ -85,7 +85,7 @@ public class Ejercicio34 {
       volteado2 /= 10;
     }
     
-    // Muestra los resultados 
+    // Muestra los resultados de ambos
     System.out.println("El número formado por los dígitos pares es: " + resultadoPares);
     System.out.println("El número formado por los dígitos impares es: " + resultadoImpares);
   }
