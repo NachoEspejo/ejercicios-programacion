@@ -19,7 +19,7 @@ public class Ejercicio33 {
     // Palos verticales de la U
     for (int i = 1; i < altura; i++) {
       System.out.print("* ");
-      for (int j = 2; j < altura; j++) {
+      for (int j = 3; j < altura; j++) {
         System.out.print("  ");
       }
       System.out.println("*");

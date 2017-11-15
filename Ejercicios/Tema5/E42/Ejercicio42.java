@@ -22,23 +22,25 @@ public class Ejercicio42 {
        
     boolean esPrimo;
 
-    for (int n = numeroIntroducido; n < numeroIntroducido + 5; n++) {
+    for (int j = 0; j < 10; j++) {
+      for (int n = numeroIntroducido; n < numeroIntroducido + 5; n++) {
 
-      // compruebación
-      esPrimo = true;
-      for (int i = 2; i < n; i++) {
-        if (n % i == 0) {
-          esPrimo = false;
+        // compruebación
+        esPrimo = true;
+        for (int i = 2; i < n; i++) {
+          if (n % i == 0) {
+            esPrimo = false;
+          }
+        }
+
+        // mostrar
+        if (esPrimo) {
+          System.out.println("El número introducido, "+ n + ", es primo");
+        } else {
+          System.out.println("El número introducido, "+ n + " no es primo");
         }
       }
-
-      // mostrar
-      if (esPrimo) {
-        System.out.println("El número introducido, "+ n + ", es primo");
-      } else {
-        System.out.println("El número introducido, "+ n + " no es primo");
-      }
+      System.out.println();
     }
-    System.out.println();
   }
 }
