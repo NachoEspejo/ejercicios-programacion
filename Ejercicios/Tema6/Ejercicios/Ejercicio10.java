@@ -11,11 +11,11 @@ public class Ejercicio10 {
     
     int tipo;
     String relleno = "";
-    int longitud;
+    int largo;
         
     for(int i = 1; i <= 10; i++) {
       
-      longitud = (int)(Math.random() * 40) + 1;
+      largo = (int)(Math.random() * 40) + 1;
       tipo = (int)(Math.random() * 6);
       
       switch(tipo) {
@@ -40,7 +40,7 @@ public class Ejercicio10 {
         default:
       }
       
-      for(int j = 1; j <= longitud; j++) {
+      for(int j = 1; j <= largo; j++) {
         System.out.print(relleno);
       }
       System.out.println();
