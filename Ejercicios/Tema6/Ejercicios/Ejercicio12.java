@@ -14,12 +14,12 @@ public class Ejercicio12 {
     
     System.out.print("\033[32m");
     
-    for(int i = 0; i < 8000; i++) {
+    for(int i = 0; i < 800000; i++) {
       System.out.print((char)(Math.random() * (126 - 32 + 1) + 32));
       
-      if (linea++ == 60) {
+      if (linea++ == 142) {
         linea = 0;
-        Thread.sleep(50);//preguntar esto
+        Thread.sleep(60);//preguntar esto
         System.out.println();
       }
     }
