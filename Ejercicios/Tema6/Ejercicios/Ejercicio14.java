@@ -22,12 +22,14 @@ public class Ejercicio14 {
     System.console().readLine();
 
     do {
+      vidas--;
       numeroIA = (int)(Math.random() * (maximo - minimo) + minimo);
       System.out.println("Mmnnnn es el... " + "¿" + numeroIA + "?");
       System.out.println("El número que estás pensando es 1) Mayor 2) Menor 3) Igual");
+      System.out.println("Me quedan un total de: " + vidas + " vidas");
       System.out.print("Opción: ");
       opciones = Integer.parseInt(System.console().readLine());
-      vidas--;
+      
 
       if ( (opciones == 1) && (vidas > 0) )
         minimo = numeroIA + 1;
