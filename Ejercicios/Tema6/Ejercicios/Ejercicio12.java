@@ -8,20 +8,15 @@
 public class Ejercicio12 {
 
   public static void main(String[] args) 
-    throws InterruptedException { //preguntar esto
-
-    int linea = 0;
+    throws InterruptedException { 
     
     System.out.print("\033[32m");
     
     for(int i = 0; i < 800000; i++) {
       System.out.print((char)(Math.random() * (126 - 32 + 1) + 32));
+      Thread.sleep(5);
+
       
-      if (linea++ == 142) {
-        linea = 0;
-        Thread.sleep(60);//preguntar esto
-        System.out.println();
-      }
     }
   }
 }
