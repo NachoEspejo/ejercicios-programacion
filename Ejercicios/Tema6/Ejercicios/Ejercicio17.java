@@ -24,27 +24,35 @@ public class Ejercicio17 {
 
     // parte superior
     for(int i = 0; i < ancho; i++) {
-      System.out.print("* ");
+      if (i == 0){
+        System.out.print("┏");
+      }
+      System.out.print("━");
     }
+    System.out.print("┓");
     System.out.println();  
 
     // parte central
     for(int i = 2; i < alto; i++) {
-      System.out.print("* "); // parte izquierda de la pecera
+      System.out.print("┃"); // parte izquierda de la pecera
       for(int j = 2; j < ancho; j++) {
         if (posicion == pez) {
           System.out.print("🐟 ");
         } else {
-          System.out.print("  ");
+          System.out.print("▒▒");
         }
         posicion++;
       } 
-      System.out.println("* "); // parte derecha de la pecera
+      System.out.println("┃"); // parte derecha de la pecera━┃┏┓┗┛┣┫┳┻╋
     } 
       
     // parte inferior
     for(int i = 0; i < ancho; i++) {
-      System.out.print("* ");
+      if (i == 0){
+        System.out.print("┗");
+      }
+      System.out.print("━");
     }
+    System.out.print("┛");
   }
 }
