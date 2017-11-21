@@ -22,13 +22,13 @@ public class Ejercicio17 {
 
     int pez = (int)(Math.random()*(alto - 2)*(ancho - 2));
 
-    // Pinta la parte superior
+    // parte superior
     for(int i = 0; i < ancho; i++) {
       System.out.print("*");
     }
     System.out.println();  
 
-    // Pinta la parte central
+    // parte central
     for(int i = 2; i < alto; i++) {
       System.out.print("*"); // parte izquierda de la pecera
       for(int j = 2; j < ancho; j++) {
@@ -42,7 +42,7 @@ public class Ejercicio17 {
       System.out.println("*"); // parte derecha de la pecera
     } 
       
-    // Pinta la parte inferior
+    // parte inferior
     for(int i = 0; i < ancho; i++) {
       System.out.print("*");
     }
