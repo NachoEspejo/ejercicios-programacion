@@ -5,7 +5,7 @@ public class EjemploArray04 {
                 
     caracter[0] = 'P';
     caracter[1] = 'U';
-    caracter[2] = 'E';
+    caracter[2] = 'Y';
     caracter[3] = 'R';
     caracter[4] = 'C';
     caracter[5] = 'A';
