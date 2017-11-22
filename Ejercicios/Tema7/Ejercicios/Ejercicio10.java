@@ -28,6 +28,8 @@ public class Ejercicio10 {
     
     System.out.println("Array original:"); // Array original
     for (i = 0; i < 20; i++) {
+      
+      
       System.out.print(numero[i] + " ");
     }
     System.out.println();
