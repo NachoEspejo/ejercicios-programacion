@@ -40,6 +40,7 @@ public class Ejercicio08 {
       temperatura[i] = Integer.parseInt(System.console().readLine());
     }
 
+    System.out.println();
     for (i = 0; i < 12; i++) { // Gráfica tope guapa
       System.out.printf(naranja + "%12s " + verde + "│", mes[i]);
       for (j = 0; j < temperatura[i]; j++) {
