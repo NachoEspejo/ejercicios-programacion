@@ -92,8 +92,8 @@ public class Ejercicio18 {
       default:
     }
 
-    System.out.println("Dormitorio 1 va a ser de color: " +fuenteColor1);
-    System.out.println("Dormitorio 2 va a ser de color: " +fuenteColor2);
-    System.out.println("Dormitorio 3 va a ser de color: " +fuenteColor3);
+    System.out.println("Dormitorio 1 va a ser de color: " + fuenteColor1);
+    System.out.println("Dormitorio 2 va a ser de color: " + fuenteColor2);
+    System.out.println("Dormitorio 3 va a ser de color: " + fuenteColor3);
   }
 }
