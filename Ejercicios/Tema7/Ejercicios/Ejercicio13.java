@@ -39,7 +39,7 @@ public class Ejercicio13 {
     }
     System.out.println();
     System.out.println();
-    System.out.println("¿Qué quiere destacar? (1 – mínimo, 2 – máximo): ");
+    System.out.println("¿Cuál quiere destarcar? (1 – mínimo, 2 – máximo): ");
     int opcion = Integer.parseInt(System.console().readLine());
 
     int destacado; // número que se va a destacar del resto
