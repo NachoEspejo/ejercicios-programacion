@@ -23,6 +23,6 @@ public class Ejercicio20 {
         
     System.out.println("┗━━━━┛"); // fondo de la cuba
     System.out.print("La cuba tiene una capacidad de " + capacidad);
-    System.out.print(" litros y contiene " + litros + " litros de coca líquida  .");
+    System.out.print(" litros y contiene " + litros + " litros de agua.");
   }
 }
