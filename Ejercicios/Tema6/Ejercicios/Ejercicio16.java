@@ -25,19 +25,20 @@ public class Ejercicio16 {
 
       switch(figura) {
         case 0:
-          System.out.print("♥ ");
+          System.out.print(" ♥ ");
           break;
         case 1:
-          System.out.print("💎 ");
+          System.out.print(" 💎 ");
           break;
         case 2:
-          System.out.print("Ω ");
+          System.out.print(" Ω");
           break;
         case 3:
-          System.out.print("🔔 ");
+          System.out.print(" 
+          🔔 ");
           break;
         case 4:
-          System.out.print("🍋 ");
+          System.out.print(" 🍋 ");
           break;
         default:
       }
