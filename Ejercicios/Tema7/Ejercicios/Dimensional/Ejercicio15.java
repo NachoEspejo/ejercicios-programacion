@@ -50,7 +50,7 @@ public class Ejercicio15 {
         System.out.print("Lo siento, no admitimos grupos de 5 o más, haga grupos de");
         System.out.println(" 4 personas como máximo e intente de nuevo.");
       } else {
-        // Busca una mesa que esté vacía.
+        // Busca una mesa vacía.
         int vacia = 0;
         boolean hayMesaVacia = false;
         for(int i = 9; i >= 0; i--) {
@@ -78,7 +78,7 @@ public class Ejercicio15 {
             mesa[hueco] += clientes; // coloca a los clientes en el primer hueco disponible
             System.out.println("Tendrán que compartir mesa y por favor, no se coma a su compañero. Por favor, siéntense en la mesa número " + (hueco + 1) + ".");
           } else {
-            System.out.println("Lo siento, en estos momentos no queda sitio.");
+            System.out.println("Lo siento, en estos momentos estamos llenos, por favor espere, hasta que tengamos sitio.");
           }
         }
       }
