@@ -26,11 +26,11 @@ public class Ejercicio04 {
     System.out.println("Se mostrarán a continuación, en tres columnas, un número aleatorio entre 0 y 100 con, su cuadrado y su cubo:");
     
     System.out.println();
-    System.out.println("┌─────┬───────┬────────┐");
-    System.out.println("│  n  │   n²  │   n³   │\n├─────┼───────┼────────┤");
+    System.out.println("┌─────┬───────┬───────┐");
+    System.out.println("│  n  │   n²  │   n³  │\n├─────┼───────┼───────┤");
     
     for (i = 0; i < 20; i++) { // Muestra 20 numeros aleatorios con cuadrado y cubo
-    System.out.printf("│%4d │ %5d │%8d│\n", numero[i], cuadrado[i], cubo[i]);
+    System.out.printf("│%4d │ %5d │%7d│\n", numero[i], cuadrado[i], cubo[i]);
     }
   }
 }
