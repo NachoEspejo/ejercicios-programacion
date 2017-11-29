@@ -27,7 +27,7 @@ public class Ejercicio15 {
 
     int clientes;
     
-    System.out.print("DISPONIBILIDAD ACTUAL DEL RESTAURANTE CAMPANILLAS");
+    System.out.print("DISPONIBILIDAD ACTUAL DEL RESTAURANTE CAMPANILLAS ⭐ ⭐ ⭐ ⭐");
     
     do{
       // Muestra el estado de ocupación de las mesas actual
