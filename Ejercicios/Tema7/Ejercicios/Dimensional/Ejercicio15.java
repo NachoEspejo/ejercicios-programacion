@@ -45,7 +45,7 @@ public class Ejercicio15 {
       
       System.out.println("¿Cuántos comensales son? (Introduzca -1 para salir del programa): ");
       clientes = Integer.parseInt(System.console().readLine());
-
+     
       if (clientes > 4) { // comprueba si el grupo de clientes es mayor a 4
         System.out.print("Lo siento, no admitimos grupos de 5 o más, haga grupos de");
         System.out.println(" 4 personas como máximo e intente de nuevo.");

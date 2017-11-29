@@ -46,7 +46,8 @@ public class Ejercicio17 {
     int numeroIntroducido;
     do {
       System.out.println();
-      System.out.print("Introduce uno de los números, que se encuentre en el array (Valor): ");
+      System.out.print("Introduce uno de los números, que se encuentre en el array. ");
+      System.out.print("Dicho valor se movera a la derecha, hasta que lllege a la posición 0: ");
       numeroIntroducido = Integer.parseInt(System.console().readLine());
       
       for (int elemento : numeros) { // Comprueba si existe dicho numero
