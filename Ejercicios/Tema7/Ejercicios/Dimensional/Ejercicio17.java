@@ -60,6 +60,7 @@ public class Ejercicio17 {
         System.out.println();
         System.out.print("Creo... que tienes que graduarte la vista, porque ese número no se encuentra en el array.");
         System.out.println(" Por favor, vuelva a intentarlo.");
+        
       }
     } while (!existe);
     

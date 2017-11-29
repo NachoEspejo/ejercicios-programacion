@@ -64,7 +64,7 @@ public class Ejercicio15 {
           mesa[vacia] = clientes; // coloca a los clientes en la mesa libre
           System.out.println("Sientese en la mesa número " + (vacia + 1) + ".");
         } else {
-          // Busca un hueco para todo el grupo.
+          // Busca un hueco para todo el grupo
           int hueco = 0;
           boolean hayHueco = false;
           for(int i = 9; i >= 0; i--) {
