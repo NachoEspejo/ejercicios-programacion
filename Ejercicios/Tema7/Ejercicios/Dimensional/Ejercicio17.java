@@ -63,7 +63,7 @@ public class Ejercicio17 {
       }
     } while (!existe);
     
-    while (numeros[0] != numeroIntroducido) { // Rotación a la derecha hasta que se coloque en la posición 0
+    while (numeros[0] != numeroIntroducido) { // Rota hasta que se coloque en la posición 0
       int aux = numeros[9];
       
       for (int i = 9; i > 0; i--) {// Rotación a la derecha
