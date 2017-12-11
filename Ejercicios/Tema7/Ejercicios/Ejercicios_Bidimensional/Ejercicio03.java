@@ -13,9 +13,11 @@ public class Ejercicio03 {
     int columna;
         
     // Introduce valores aleatorios en el array
-    for(fila = 0; fila < 4; fila++)
-      for(columna = 0; columna < 5; columna++)
+    for(fila = 0; fila < 4; fila++){
+      for(columna = 0; columna < 5; columna++){
         num[fila][columna] = (int)(Math.random() * 900) + 100;
+      }
+    }
 
     // Muestra los datos y las sumas parciales de las filas
     int sumaFila;

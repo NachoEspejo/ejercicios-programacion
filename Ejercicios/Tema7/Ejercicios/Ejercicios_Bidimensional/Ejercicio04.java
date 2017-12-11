@@ -53,7 +53,7 @@ public class Ejercicio04 {
 
       sumaTotal += sumaColumna;
       System.out.printf("%7d   ", sumaColumna);
-      Thread.sleep(5000);
+      Thread.sleep(3000);
     }
     System.out.printf("┋%7d   ", sumaTotal);
   }
