@@ -29,9 +29,10 @@ public class Ejercicio04 {
         System.out.printf("%7d   ", num[fila][columna]);
         sumaFila += num[fila][columna];
         Thread.sleep(300);
-      }  
+      }
+      Thread.sleep(3000);
       System.out.printf("┋%7d\n", sumaFila);
-      Thread.sleep(500);
+      
     }
     
     // Muestra las sumas parciales de las columnas
@@ -39,7 +40,7 @@ public class Ejercicio04 {
       System.out.print("┅┅┅┅┅┅┅┅┅┅");
     }
     System.out.println("╋┅┅┅┅┅┅┅┅┅┅");
-    Thread.sleep(5000);
+    Thread.sleep(3000);
 
     int sumaColumna;
     int sumaTotal = 0;
