@@ -1,21 +1,25 @@
 /**
- *Ejercicio 3
- *Modifica el programa anterior de tal forma que los números que se introducen
- *en el array se generen de forma aleatoria (valores entre 100 y 999).
+ *Ejercicio 4
+ *Modifica el programa anterior de tal forma que las sumas parciales y la suma
+ *total aparezcan en la pantalla con un pequeño retardo, dando la impresión de
+ *que el ordenador se queda “pensando” antes de mostrar los números.
  */
 
-public class Ejercicio03 {
-  public static void main(String[] args) {
+public class Ejercicio04 {
+  public static void main(String[] args) 
+    throws InterruptedException { // Se añade esta línea para poder usar sleep
  
-    int[][] num = new int[4][5]; // array de 4 filas por 5 columnas
+    int[][] num = new int[4][5];
 
     int fila;
     int columna;
-        
+    
     // Introduce valores aleatorios en el array
-    for(fila = 0; fila < 4; fila++)
-      for(columna = 0; columna < 5; columna++)
+    for(fila = 0; fila < 4; fila++) {
+      for(columna = 0; columna < 5; columna++) {
         num[fila][columna] = (int)(Math.random() * 900) + 100;
+      }
+    }
 
     // Muestra los datos y las sumas parciales de las filas
     int sumaFila;
@@ -24,8 +28,10 @@ public class Ejercicio03 {
       for(columna = 0; columna < 5; columna++) {
         System.out.printf("%7d   ", num[fila][columna]);
         sumaFila += num[fila][columna];
+        Thread.sleep(300);
       }  
       System.out.printf("┋%7d\n", sumaFila);
+      Thread.sleep(500);
     }
     
     // Muestra las sumas parciales de las columnas
@@ -33,6 +39,7 @@ public class Ejercicio03 {
       System.out.print("┅┅┅┅┅┅┅┅┅┅");
     }
     System.out.println("╋┅┅┅┅┅┅┅┅┅┅");
+    Thread.sleep(5000);
 
     int sumaColumna;
     int sumaTotal = 0;
@@ -45,6 +52,7 @@ public class Ejercicio03 {
 
       sumaTotal += sumaColumna;
       System.out.printf("%7d   ", sumaColumna);
+      Thread.sleep(5000);
     }
     System.out.printf("┋%7d   ", sumaTotal);
   }
