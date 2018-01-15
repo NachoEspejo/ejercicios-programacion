@@ -1,7 +1,7 @@
 /**
  * 8. Funciones
  *
- * Ejercicios 1 a 14
+ * Ejercicio 16
  *
  */
 
