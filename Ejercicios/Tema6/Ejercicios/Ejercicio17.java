@@ -35,11 +35,11 @@ public class Ejercicio17 {
     // parte central
     for(int i = 2; i < alto; i++) {
       System.out.print("┃"); // parte izquierda de la pecera
-      for(int j = 2; j < ancho; j++) {
+      for(int j = 0; j < ancho; j++) {
         if (posicion == pez) {
-          System.out.print("🐟 ");
+          System.out.print("🐟");
         } else {
-          System.out.print("▒▒");
+          System.out.print(" ");
         }
         posicion++;
       } 

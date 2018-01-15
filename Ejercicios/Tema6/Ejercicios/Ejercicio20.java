@@ -11,7 +11,7 @@ public class Ejercicio20 {
     System.out.print("Indica la capacidad de la cuba en litros: ");
     int capacidad = Integer.parseInt(System.console().readLine());
 
-    int litros = (int)(Math.random() * (capacidad + 1));  
+    int litros = (int)(Math.random() * (capacidad - 1));  
         
     for (int i = 0; i < capacidad; i++) {
       if (i < (capacidad - litros)) {

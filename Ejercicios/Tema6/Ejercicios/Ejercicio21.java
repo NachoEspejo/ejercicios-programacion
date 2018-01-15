@@ -47,10 +47,10 @@ public class Ejercicio21 {
       }
       switch(resultado) {
         case 1:
-          caraCruz = "😶 ";
+          caraCruz = "cara ";
           break;
         case 2:
-          caraCruz = "✝ ";
+          caraCruz = "cruz ";
           break;
         default:
       }

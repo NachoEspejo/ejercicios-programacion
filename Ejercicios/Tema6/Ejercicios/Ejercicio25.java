@@ -27,7 +27,7 @@ public class Ejercicio25 {
       if (esPrimo) { // Si es primo
         System.out.print(" #" + numeroRandom + "# ");
       } else if ((numeroRandom % 5) == 0) { // Si es múltiplo de 5
-        System.out.print(" [" + numeroRandom + "] ");
+        System.out.print(" [" + numeroRandom + "]z   ");
       } else { // Si no es primo ni multiplo de 5
         System.out.print(" " + numeroRandom + " ");
       }

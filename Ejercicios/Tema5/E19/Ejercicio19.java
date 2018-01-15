@@ -14,7 +14,7 @@ public class Ejercicio19 {
     String relleno = System.console().readLine();
     
     int h = 1;
-    int i = 0;
+    int i = 1;
     int huecos = alturaIntroducida - 1;
     
     while (h <= alturaIntroducida) {
