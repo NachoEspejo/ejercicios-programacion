@@ -40,11 +40,11 @@ public class Ejercicio29a34 {
         if (funciones.ArraysBidi.esPuntoDeSilla(b, i, j)) {
           System.out.println("fila " + i + ", columna " + j + " -> "  + b[i][j]);
         }
-      } // for j
-    } // for i
+      } 
+    }
     System.out.println();
     
-    // Ejercicio 34
+    // Ejercicio 34 (Preguntar en clase)
     System.out.println("Vamos a hacer diagonales con los números: ");
     funciones.ArraysBidi.muestraArrayBiInt(a);    
     System.out.print("\nFila: ");
