@@ -6,7 +6,7 @@
  * 
  */
  
-// import funcionesBi.arrays;
+import funciones.ArraysBidi;
 
 public class Ejercicio29a34 {
 
