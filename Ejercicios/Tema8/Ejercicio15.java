@@ -5,7 +5,7 @@
  *
  */
  
-import Matemáticas.Varias;
+import matemáticas.Varias;
 
 public class Ejercicio15 {
 
@@ -14,7 +14,7 @@ public class Ejercicio15 {
     System.out.println("Los números primos de 1 a 1000 son: ");
     
     for(int i = 1; i <= 1000; i++) {
-      if (Matemáticas.Varias.esPrimo(i)) {
+      if (Varias.esPrimo(i)) {
         System.out.print(i + " ");
       }
     }

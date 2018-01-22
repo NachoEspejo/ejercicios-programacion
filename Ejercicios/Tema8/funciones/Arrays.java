@@ -1,4 +1,4 @@
-package Funciones;
+package funciones;
 
 public class Arrays {
 

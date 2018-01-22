@@ -1,4 +1,4 @@
-package Matemáticas;
+package matemáticas;
 
 public class Varias {
 

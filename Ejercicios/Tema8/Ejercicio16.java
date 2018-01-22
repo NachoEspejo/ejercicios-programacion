@@ -5,7 +5,7 @@
  *
  */
 
-import Matemáticas.Varias;
+import matemáticas.Varias;
 
 public class Ejercicio16 {
 
@@ -14,7 +14,7 @@ public class Ejercicio16 {
     System.out.println("Los números capicúa que hay entre 1 y 99999 son: ");
     
     for(int i = 1; i <= 99999; i++) {
-      if (Matemáticas.Varias.esCapicua(i)) {
+      if (Varias.esCapicua(i)) {
         System.out.print(i + " ");
       }
     }

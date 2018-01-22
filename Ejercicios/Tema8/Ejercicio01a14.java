@@ -5,7 +5,7 @@
  *
  */
 
-import Matemáticas.Varias;
+import matemáticas.Varias;
 
 public class Ejercicio01a14 {
 
