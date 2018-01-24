@@ -19,7 +19,7 @@ public class Ejercicio18 {
   }
   
   
-  // ESTO ES LA FUNCION QUE PASA EL DECIMAL A BINARIO
+  // ESTO ES LA FUNCION QUE PASA EL DECIMAL A BINARIO (NECESARIO EN EJ19)
   
   /**
    * Pasa un número decimal (en base 10) a binario (base 2).
