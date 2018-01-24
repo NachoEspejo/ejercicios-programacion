@@ -11,7 +11,7 @@ public class Ejercicio18 {
 
   public static void main(String[] args) {
     
-    System.out.print("Introduce un número en base diez para pasarlo a binario: ");
+    System.out.print("Introduce un número decimal para pasarlo a binario: ");
     int decimal = Integer.parseInt(System.console().readLine());
     
     System.out.println("El " + decimal + " en decimal, es " + decimalABinario(decimal) + " en binario.");

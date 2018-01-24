@@ -44,7 +44,7 @@ public class Ejercicio29a34 {
     }
     System.out.println();
     
-    // Ejercicio 34 (Preguntar en clase)
+    // Ejercicio 34 (MIRAR FUNCION)
     System.out.println("Vamos a hacer diagonales con los números: ");
     funciones.ArraysBidi.muestraArrayBiInt(a);    
     System.out.print("\nFila: ");
