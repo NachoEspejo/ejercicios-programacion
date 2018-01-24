@@ -1,7 +1,7 @@
 package funciones;
 import matemáticas.*;
 
-// COPIADO, REVISAR CON MUCHO CUIDADO!!
+
 
 public class ArraysBidi {
 /**

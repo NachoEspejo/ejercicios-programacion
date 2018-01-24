@@ -8,7 +8,6 @@
  
 import funciones.ArraysBidi;
 
-// COPIADO; HACER MAS TARDE
 
 public class Ejercicio29a34 {
 
