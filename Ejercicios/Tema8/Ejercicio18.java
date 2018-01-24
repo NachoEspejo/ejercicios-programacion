@@ -24,7 +24,7 @@ public class Ejercicio18 {
   /**
    * Pasa un número decimal (en base 10) a binario (base 2).
    * 
-   * @param decimal número entero en base 10
+   * @param         decimal número entero en base 10
    * @return        número inicial pasado a binario
    */
   public static long decimalABinario(int decimal) {
