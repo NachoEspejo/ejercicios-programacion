@@ -1,7 +1,7 @@
 package funciones;
 import matemáticas.*;
 
-// REVISAR CON MUCHO CUIDADO!!
+// COPIADO, REVISAR CON MUCHO CUIDADO!!
 
 public class ArraysBidi {
 /**
@@ -13,7 +13,7 @@ public class ArraysBidi {
    * @param x array bidimiensional de números enteros
    */
   public static void muestraArrayBiInt(int x[][]) {
-    // El tamaño de la columna será igual al tamaño del número máximo del array
+    
     String formatoNumero = "%" + matemáticas.Varias.digitos(maximoArrayBiInt(x)) + "d";
 
     for (int f = 0; f < x.length; f++) {
