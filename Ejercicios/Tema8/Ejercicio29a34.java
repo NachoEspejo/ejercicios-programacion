@@ -18,16 +18,16 @@ public class Ejercicio29a34 {
     funciones.ArraysBidi.muestraArrayBiInt(a);
     
     // Ejercicio 30
-    System.out.print("\nFila 2: ");
-    funciones.Arrays.muestraArrayInt(funciones.ArraysBidi.filaDeArrayBiInt(a, 2));    
+    System.out.print("\nFila 3: ");
+    funciones.Arrays.muestraArrayInt(funciones.ArraysBidi.filaDeArrayBiInt(a, 3));    
     
     // Ejercicio 31
-    System.out.print("\nColumna 6: ");
-    funciones.Arrays.muestraArrayInt(funciones.ArraysBidi.columnaDeArrayBiInt(a, 6));
+    System.out.print("\nColumna 5: ");
+    funciones.Arrays.muestraArrayInt(funciones.ArraysBidi.columnaDeArrayBiInt(a, 5));
     
     // Ejercicio 32
-    System.out.print("\nCoordenadas del 24 (fila, columna): ");
-    funciones.Arrays.muestraArrayInt(funciones.ArraysBidi.coordenadasEnArrayBiInt(a, 24));
+    System.out.print("\nCoordenadas del 88 (fila, columna): ");
+    funciones.Arrays.muestraArrayInt(funciones.ArraysBidi.coordenadasEnArrayBiInt(a, 88));
     System.out.println();
     
     // Ejercicio 33
