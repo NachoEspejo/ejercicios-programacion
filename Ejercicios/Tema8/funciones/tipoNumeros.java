@@ -1,4 +1,4 @@
-package matemáticas;
+package funciones;
 import matemáticas.*;
 
 public class tipoNumeros {
