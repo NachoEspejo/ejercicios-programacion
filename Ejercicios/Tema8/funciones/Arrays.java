@@ -185,7 +185,7 @@ public class Arrays {
    */
   public static int[] rotaIzquierdaArrayInt(int[] x, int n) {
     
-    int[] a = x.clone(); // clona en a el contenido de x
+    int[] a = x.clone();
     int i;
     int aux;
     
