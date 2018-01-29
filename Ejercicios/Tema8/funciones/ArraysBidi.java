@@ -163,7 +163,7 @@ public class ArraysBidi {
         && (Arrays.maximoArrayInt(columna) == x[i][j]));
   }
   
-  // REHACER !!!
+  // MIRAR CON MUCHO CUIDADO
   /**
    * Devuelve un array que contiene una de las diagonales del array
    * bidimensional que se pasa como parámetro.
