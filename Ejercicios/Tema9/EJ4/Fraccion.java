@@ -53,10 +53,25 @@ public class Fraccion {
   }
   
   /**
-   * MULTIPLICACION DE FRACIONES
+   * MULTIPLICACION DE FRACCIONES
    */
    
   public Fraccion multiplica(Fraccion f) {
     return new Fraccion(this.signo * f.getSigno() * this.numerador * f.getNumerador(), this.denominador * f.getDenominador());
+  }
+  
+  /**
+   *  MULTIPLICACION DE UNA FRACCION CON NÚMERO
+   */
+  public Fraccion divide(int n) {
+    return new Fraccion(this.signo * this.numerador, this.denominador * n);
+  }
+  
+  /**
+   * DIVISION DE FRACCIONES
+   */
+   
+  public Fraccion divide(Fraccion f) {
+    return new Fraccion(this.signo * f.getSigno() * this.numerador * f.getDenominador(), this.denominador * f.getNumerador());
   }
 }
