@@ -1,0 +1,38 @@
+Concepto de POO
+
+1º)
+PilotoDeFormula1
+Atributos: nombre, apellidos, edad, campeonatos, escuderia, nºpoles, nacionalidad, nºpuntos, mejorTemporada
+
+Eje.Instancias: fernando_Alonso, piloto2. pilotoAux...
+
+2º)
+Clases:
+-perro
+	goofy, milu, snoopy, pluto
+-mineral
+	pirita, cuarzo
+-caballo
+	rocinante, bucefalo, pegaso
+-persona
+	paula, javier
+-gato
+	garfield, tom, silvestre
+
+
+
+Instancias: paula, goofy, garfield, tom, silvestre, pirita, rocinante, milu, snoopy, pluto, javier, ayudante, cuarzo, laika, pato_lucas, pegaso, bucefalo.
+
+Jerarquía:
+
+Animal:
+	-Perro
+	-Gato
+	-Caballo
+Persona:
+Mineral:
+
+3º)
+Vivienda
+Atributos: catastro, metrosCuadrados, numeroDeHabitaciones, numeroDeBanos, dirrecion, precio, tipo, nombrePropietario.
+SubClases: Duplex, Piso, Chalet, Atico, Loft.
