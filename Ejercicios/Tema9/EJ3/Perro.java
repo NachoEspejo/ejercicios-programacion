@@ -2,6 +2,8 @@ public class Perro extends Mamifero  {
 
   private String raza;
   
+  Perro() {}
+  
   Perro (String r) {
     this.raza = r;
   }

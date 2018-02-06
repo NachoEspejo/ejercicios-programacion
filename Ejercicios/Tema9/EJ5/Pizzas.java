@@ -27,14 +27,14 @@ public class Pizzas {
   }
 
   /**
-   * ESTA SERVIDA O NO
+   * COMPRUEBA SI ESTA SERVIDA O NO
    */
   public void sirve() {
     if (this.estado.equals("pedida")) {
       this.estado = "servida";
       Pizzas.totalServidas++;
     } else {
-      System.out.println("Esa pizza ya se ha servido");
+      System.out.println("Esa pizza ya se ha servido con anterioridad");
     }
   }
 }

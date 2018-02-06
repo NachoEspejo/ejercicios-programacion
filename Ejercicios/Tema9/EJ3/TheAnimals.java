@@ -2,12 +2,12 @@ public class TheAnimals {
 
   public static void main(String[] args) {
    
-    Perro fernin = new Perro("ErGordo");
+    Perro fernin = new Perro();
     fernin.duerme();
     fernin.cuidaCrias();
-    fernin.anda();
+    fernin.ladra();
     fernin.dameLaPata();
-    fernin.amamanta();
+    fernin.noPoneHuevos();
 
 
   }

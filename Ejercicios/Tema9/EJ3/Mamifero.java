@@ -1,15 +1,12 @@
 public class Mamifero extends Animal {
 
   
-  public void amamanta() {
-    System.out.println("Así, podrás crecer");
-  }
   
   public void cuidaCrias() {
-    System.out.println("No hagas eso");
+    System.out.println("No hagas eso, que te vas a hacer daño");
   }
   
-  public void anda() {
-    System.out.println("Estoy andando a 4 patas");
+  public void noPoneHuevos() {
+    System.out.println("¡Oye! Yo no pongo huevos");
   }
 }
