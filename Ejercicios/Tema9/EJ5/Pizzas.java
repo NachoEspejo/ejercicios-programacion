@@ -3,19 +3,19 @@ public class Pizzas {
   static int totalPedidas = 0;
   static int totalServidas = 0;
   
-  String tamano;
+  String tamanio;
   String tipo;
   String estado;
   
   public Pizzas(String t, String ta) {
     this.tipo = t;
-    this.tamano = ta;
+    this.tamanio = ta;
     this.estado = "pedida";
     Pizzas.totalPedidas++;
   }
   
   public String toString() {
-    return "La pizza es de " + this.tipo + ", su tamaño es " + this.tamano + ", y actualmente está " + this.estado;
+    return "La pizza es de " + this.tipo + ", su tamaño es " + this.tamanio + ", y actualmente está " + this.estado;
   }
   
   public static int getTotalPedidas() {
