@@ -5,6 +5,8 @@ public class Caballo {
   private String color;
   private String sexo;
   
+  Caballo() {}
+  
   Caballo (String n, int e, String c, String s) {
     this.nombre = n;
     this.edad = e;
