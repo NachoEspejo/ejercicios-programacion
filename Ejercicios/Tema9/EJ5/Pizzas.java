@@ -7,9 +7,9 @@ public class Pizzas {
   String tipo;
   String estado;
   
-  public Pizzas(String t, String ta) {
+  public Pizzas(String t, String tam) {
     this.tipo = t;
-    this.tamanio = ta;
+    this.tamanio = tam;
     this.estado = "pedida";
     Pizzas.totalPedidas++;
   }

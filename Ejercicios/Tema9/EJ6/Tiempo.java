@@ -12,10 +12,11 @@ public class Tiempo {
     
   public String toString() {
     int segundos = this.segundos;
-    int horas = segundos / 3600;
-    segundos -= horas * 3600;
     int minutos = segundos / 60;
     segundos -= minutos * 60;
+    int horas = segundos / 3600;
+    segundos -= horas * 3600;
+
     
     if (this.segundos < 0) {
       return "-(" + (-horas) + "h " + (-minutos) + "m " + (-segundos) + "s)";
