@@ -6,16 +6,16 @@ public class Tiempo {
     this.segundos = (horas * 3600) + (minutos * 60) + segundos;
   }
   
-  public Tiempo(int s) {
-    this.segundos = s;
+  public Tiempo(int segs) {
+    this.segundos = segs;
   }
     
   public String toString() {
     int segundos = this.segundos;
-    int minutos = segundos / 60;
-    segundos -= minutos * 60;
     int horas = segundos / 3600;
     segundos -= horas * 3600;
+    int minutos = segundos / 60;
+    segundos -= minutos * 60;
 
     
     if (this.segundos < 0) {

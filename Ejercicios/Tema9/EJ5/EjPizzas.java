@@ -1,4 +1,5 @@
 public class EjPizzas {
+  
   public static void main(String[] args) {
     Pizzas p1 = new Pizzas("margarita", "mediana");
     Pizzas p2 = new Pizzas("funghi", "familiar");
