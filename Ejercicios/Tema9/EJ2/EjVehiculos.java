@@ -6,7 +6,7 @@ public class EjVehiculos {
     int km = 0;
     
     Bicicleta theBike = new Bicicleta(10);
-    Coche lambo = new Coche(500);
+    Coche lambo = new Coche(500 );
 
     while (opcion != 8) {
       System.out.println("1. Anda con la bicicleta");

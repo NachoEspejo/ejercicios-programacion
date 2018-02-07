@@ -8,6 +8,6 @@ public class Bicicleta extends Vehiculo {
   }
   
   public void elCaballito() {
-    System.out.println("Estoy haciendo el caballito");
+    System.out.println("Estoy haciendo el caballito(No hace KM's)");
   }
 }
