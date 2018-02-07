@@ -55,7 +55,6 @@ public class Fraccion {
   /**
    * MULTIPLICACION DE FRACCIONES
    */
-   
   public Fraccion multiplica(Fraccion f) {
     return new Fraccion(this.signo * f.getSigno() * this.numerador * f.getNumerador(), this.denominador * f.getDenominador());
   }
@@ -70,7 +69,6 @@ public class Fraccion {
   /**
    * DIVISION DE FRACCIONES
    */
-   
   public Fraccion divide(Fraccion f) {
     return new Fraccion(this.signo * f.getSigno() * this.numerador * f.getDenominador(), this.denominador * f.getNumerador());
   }
