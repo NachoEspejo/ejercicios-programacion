@@ -60,7 +60,7 @@ public class Fraccion {
   }
   
   /**
-   *  MULTIPLICACION DE UNA FRACCION CON NÚMERO
+   *  DIVISION DE UNA FRACCION CON NÚMERO
    */
   public Fraccion divide(int n) {
     return new Fraccion(this.signo * this.numerador, this.denominador * n);
