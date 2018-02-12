@@ -18,14 +18,6 @@ public class Pizzas {
     return "La pizza es de " + this.tipo + ", su tamaño es " + this.tamanio + ", y actualmente está " + this.estado;
   }
   
-  public static int getTotalPedidas() {
-    return Pizzas.totalPedidas;
-  }
-  
-  public static int getTotalServidas() {
-    return Pizzas.totalServidas;
-  }
-
   /**
    * COMPRUEBA SI ESTA SERVIDA O NO
    */
@@ -37,4 +29,14 @@ public class Pizzas {
       System.out.println("Esa pizza ya se ha servido con anterioridad");
     }
   }
+  
+  public static int getTotalPedidas() {
+    return Pizzas.totalPedidas;
+  }
+  
+  public static int getTotalServidas() {
+    return Pizzas.totalServidas;
+  }
+
+
 }
