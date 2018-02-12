@@ -2,6 +2,10 @@ public class Bicicleta extends Vehiculo {
 
   private int piniones;
   
+  public Bicicleta(){
+    super();
+  }
+  
   public Bicicleta(int p) {
     super();
     this.piniones = p;

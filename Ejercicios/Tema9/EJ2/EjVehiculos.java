@@ -5,10 +5,10 @@ public class EjVehiculos {
     int opcion = 0;
     int km = 0;
     
-    Bicicleta theBike = new Bicicleta(10);
-    Coche lambo = new Coche(500 );
+    Bicicleta theBike = new Bicicleta();
+    Coche lambo = new Coche();
 
-    while (opcion != 8) {
+    while (opcion != 9) {
       System.out.println("1. Anda con la bicicleta");
       System.out.println("2. Haz el caballito con la bicicleta");
       System.out.println("3. Anda con el coche");
@@ -16,8 +16,9 @@ public class EjVehiculos {
       System.out.println("5. Ver kilometraje de la bicicleta");
       System.out.println("6. Ver kilometraje del coche");
       System.out.println("7. Ver kilometraje total");
-      System.out.println("8. Salir");
-      System.out.println("Elige una opción (1-8): ");
+      System.out.println("8. Vehiculos creados");
+      System.out.println("9. Salir");
+      System.out.println("Elige una opción (1-9): ");
       
       opcion = Integer.parseInt(System.console().readLine());
       
@@ -49,6 +50,11 @@ public class EjVehiculos {
         case 7:
           System.out.println("Los vehículos llevan recorridos ");
           System.out.println(Vehiculo.getKilometrosTotales() + " Km");
+          break;
+        case 8:
+          System.out.println("Se han creado un total de ");
+          System.out.println(Vehiculo.getvehiculosCreados() + " vehiculos");
+          break;
         default:
       }
       System.out.println();
