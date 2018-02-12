@@ -5,17 +5,17 @@ public class Fraccion {
   private int signo;
   
   
-  public Fraccion(int n, int d) {
-    if (d == 0) {
+  public Fraccion(int num, int den) {
+    if (den == 0) {
       System.out.println("El 0 como denominador, hace que la fraccion sea una indeterminacion");
     } else {
-      if (n * d < 0) {
+      if (num * den < 0) {
         this.signo = -1;
       } else {
         this.signo = 1;
       }
-      this.numerador = Math.abs(n);
-      this.denominador = Math.abs(d);
+      this.numerador = Math.abs(num);
+      this.denominador = Math.abs(den);
     }
   }
 
@@ -48,8 +48,8 @@ public class Fraccion {
   /**
    *  MULTIPLICACION DE UNA FRACCION CON NÚMERO
    */
-  public Fraccion multiplica(int n) {
-    return new Fraccion(this.signo * this.numerador * n, this.denominador);
+  public Fraccion multiplica(int numero) {
+    return new Fraccion(this.signo * this.numerador * numero, this.denominador);
   }
   
   /**
@@ -62,8 +62,8 @@ public class Fraccion {
   /**
    *  DIVISION DE UNA FRACCION CON NÚMERO
    */
-  public Fraccion divide(int n) {
-    return new Fraccion(this.signo * this.numerador, this.denominador * n);
+  public Fraccion divide(int numero) {
+    return new Fraccion(this.signo * this.numerador, this.denominador * numero);
   }
   
   /**

@@ -11,6 +11,6 @@ public class EjTiempo {
     System.out.println(t1 + " - " + t3 + " = " + t1.resta(t3));
     System.out.println(t1 + " - " + t2 + " - " + t3 + " = " + t1.resta(t2.suma(t3)));
     System.out.println(t3 + " - " + t1 + " = " + t3.resta(t1));
-    System.out.println(t4);
+    System.out.println("100000 segundos son: " + t4);
   }
 }

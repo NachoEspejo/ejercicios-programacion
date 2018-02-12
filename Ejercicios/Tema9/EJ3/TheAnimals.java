@@ -30,6 +30,7 @@ public class TheAnimals {
     
     Pinguino Prinplu = new Pinguino();
     Prinplu.Linux();
+    Prinplu.vuelaVuela();
     Prinplu.nadar();
     
     

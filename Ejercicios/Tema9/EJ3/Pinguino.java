@@ -13,4 +13,9 @@ public class Pinguino extends Ave {
   public void nadar() {
     System.out.println("Estoy nadando");
   }
+    
+  public void vuelaVuela() {
+    System.out.println("I believe i can fly, but NO!");
+  }
+  
 }

@@ -3,7 +3,6 @@ public class EjVehiculos {
   public static void main(String[] args) {
 
     int opcion = 0;
-    int km = 0;
     
     Bicicleta theBike = new Bicicleta();
     Coche lambo = new Coche();
@@ -25,16 +24,14 @@ public class EjVehiculos {
       switch (opcion) {
         case 1:
           System.out.print("¿Cuántos kilómetros quiere recorrer? ");
-          km = Integer.parseInt(System.console().readLine());
-          theBike.recorre(km);
+          theBike.recorre(Integer.parseInt(System.console().readLine()));
           break;
         case 2:
           theBike.elCaballito();
           break;
         case 3:
           System.out.print("¿Cuántos kilómetros quiere recorrer? ");
-          km = Integer.parseInt(System.console().readLine());
-          lambo.recorre(km);
+          lambo.recorre(Integer.parseInt(System.console().readLine()));
           break;
         case 4:
           lambo.quemaRueda();

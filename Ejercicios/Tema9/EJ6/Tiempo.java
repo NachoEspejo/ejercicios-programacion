@@ -16,6 +16,7 @@ public class Tiempo {
     segundos -= horas * 3600;
     int minutos = segundos / 60;
     segundos -= minutos * 60;
+    
 
     
     if (this.segundos < 0) {
